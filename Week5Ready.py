@@ -1,3 +1,4 @@
+
 def get_dates():
     while True:
         from_date = input("Enter FROM date (mm/dd/yyyy): ")
@@ -72,7 +73,7 @@ def display_totals(totals):
     print("Total Net Pay:", totals["net"])
 
 
-# ---------------- MAIN PROGRAM ---------------- #
+
 
 from_date, to_date = get_dates()
 
